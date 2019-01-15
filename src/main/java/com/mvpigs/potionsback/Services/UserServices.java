@@ -28,10 +28,16 @@ public void setAvatar(User user, String avatarUrl){
 
 public void setId(User user, String userId){
         user.setAvatar(userId);
-    }
+}
 
+
+// todo acabar el getter cuando este lo de la bd
 public void getUser(String userId){
 
 }
+
+// setname, setpass, unsubscribeUser
+
+
 
 }
