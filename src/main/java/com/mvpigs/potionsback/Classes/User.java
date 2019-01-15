@@ -10,13 +10,16 @@ public class User {
     private Date creationDate;
     private Date unsubscribeDate;
     private String avatar;
+    private Roles role;
 
 
     public User(String userName, String userPass, String userMail) {
         this.userName = userName;
         this.userPass = userPass;
         this.userMail = userMail;
+        this.role = Roles.NORMAL;
     }
+
 
     public String getUserName() {
         return userName;
@@ -32,6 +35,10 @@ public class User {
 
     public String getAvatar() {
         return avatar;
+    }
+
+    public Roles getRole() {
+        return role;
     }
 
     public void setAvatar(String avatar) {
