@@ -4,6 +4,8 @@ import com.mvpigs.potionsback.Classes.User;
 
 public class UserServices {
 
+
+
     private static UserServices userServices;
 
     public  static UserServices getConfigurador() {
@@ -15,6 +17,21 @@ public class UserServices {
         return userServices;
     }
 
+public void createUser(String name, String pass, String mail){
+        User newUser = new User(name,pass,mail);
 
+}
+
+public void setAvatar(User user, String avatarUrl){
+        user.setAvatar(avatarUrl);
+}
+
+public void setId(User user, String userId){
+        user.setAvatar(userId);
+    }
+
+public void getUser(String userId){
+
+}
 
 }

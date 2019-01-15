@@ -4,6 +4,7 @@ import java.sql.Date;
 
 public class User {
 
+    private String userId;
     private String userName;
     private String userPass;
     private String userMail;
@@ -39,6 +40,14 @@ public class User {
 
     public Roles getRole() {
         return role;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public void setAvatar(String avatar) {
