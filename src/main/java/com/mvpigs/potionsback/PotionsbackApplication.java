@@ -9,6 +9,4 @@ public class PotionsbackApplication {
     public static void main(String[] args) {
         SpringApplication.run(PotionsbackApplication.class, args);
     }
-
 }
-

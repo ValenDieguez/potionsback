@@ -8,10 +8,9 @@ import java.sql.Date;
 @Entity
 @Table
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String userId;
+    private Long userId;
 
     @Column
     private String userName;
