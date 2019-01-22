@@ -27,7 +27,11 @@ public void setAvatar(User user, String avatarUrl){
 }
 
 public void setId(User user, String userId){
-        user.setUserAvatar(userId);
+        user.setUserId(userId);
+}
+
+public void loginUser(String userName, String userPass){
+
 }
 
 
