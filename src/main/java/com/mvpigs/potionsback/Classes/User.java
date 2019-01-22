@@ -6,8 +6,11 @@ import javax.persistence.*;
 import java.sql.Date;
 
 @Entity
+@Table
 public class User {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String userId;
 
     @Column
