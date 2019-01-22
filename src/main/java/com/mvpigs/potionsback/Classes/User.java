@@ -2,6 +2,7 @@ package com.mvpigs.potionsback.Classes;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.*;
 import java.sql.Date;
 
 @Entity
