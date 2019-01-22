@@ -9,16 +9,16 @@ public class User {
     private String userPass;
     private String userMail;
     private Date creationDate;
-    private Date unsubscribeDate;
-    private String avatar;
-    private Roles role;
+    private Date unsubDate;
+    private String userAvatar;
+    private Roles userRole;
 
 
     public User(String userName, String userPass, String userMail) {
         this.userName = userName;
         this.userPass = userPass;
         this.userMail = userMail;
-        this.role = Roles.NORMAL;
+        this.userRole = Roles.NORMAL;
     }
 
 
@@ -34,12 +34,12 @@ public class User {
         return userMail;
     }
 
-    public String getAvatar() {
-        return avatar;
+    public String getUserAvatar() {
+        return userAvatar;
     }
 
-    public Roles getRole() {
-        return role;
+    public Roles getUserRole() {
+        return userRole;
     }
 
     public String getUserId() {
@@ -50,7 +50,7 @@ public class User {
         this.userId = userId;
     }
 
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
+    public void setUserAvatar(String avatar) {
+        this.userAvatar = avatar;
     }
 }

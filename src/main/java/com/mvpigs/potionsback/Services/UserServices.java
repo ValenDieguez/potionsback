@@ -23,11 +23,11 @@ public void createUser(String name, String pass, String mail){
 }
 
 public void setAvatar(User user, String avatarUrl){
-        user.setAvatar(avatarUrl);
+        user.setUserAvatar(avatarUrl);
 }
 
 public void setId(User user, String userId){
-        user.setAvatar(userId);
+        user.setUserAvatar(userId);
 }
 
 
